@@ -1,0 +1,191 @@
+body {
+    background: rgba(242, 242, 242, 0.324);
+    font-family: sans-serif;
+    
+}
+.IMG1 {
+margin-top: 30px;
+margin-left: 250px;
+
+}
+.parent {
+    display: flex;
+}
+
+.xxl {
+position: absolute;
+height: 600px;
+width: 52%;
+background-color: (242, 242, 242, 0.324)
+}
+.change {
+    position: relative;
+background-image: url(Images/Insta\ Pic\ 1.png) ;
+width: 51.5%;
+height: 550px;
+top: 50px;
+margin-left: 180px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+animation: phone linear 20s infinite;
+/* transition: 10s; */
+/* animation-delay: 0ms; */
+/* transition-delay: 0ms;
+transition-timing-function: ease-in ;
+transition-property: all;
+transition-duration: 1.5s; */
+
+}
+@keyframes phone {
+   /* 10%{ background-image:url(Images/Insta\ Pic\ 1.png);} */
+   20% {background-image:url(Images/Insta\ Pic\ 2.png);}
+   30%{ background-image:url(Images/Insta\ Pic\ 3.png);}
+   40%{ background-image:url(Images/Insta\ Pic\ 4.png);}
+}
+.D0{
+    margin-left: -167px;
+}
+.Form {
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    margin-top: 46px;
+    border: 1px solid rgb(225, 225, 225);
+    
+}
+.Logo {
+    margin-top: 41px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+.Input {
+    width: 265px;
+    height: 33px;
+    font-size: smaller;
+    padding-left: 9px;
+    margin-left: 40px;
+    margin-bottom: 6px; 
+    background-color: rgba(230, 227, 227, 0.466);
+    border-color: rgba(230, 227, 227, 0.466);
+    border: 1px solid  rgba(156, 156, 156, 0.466);
+    
+}
+/* B1 stands for button 1 */
+.B1 {
+    width: 269px ;
+    height: 33px ;
+    margin-top: 10px;
+    border-radius: 7px;
+    margin-left: 40px;
+    border: 1px solid rgba(0, 98, 255, 0.549);
+    background-color: rgba(0, 98, 255, 0.549);
+    color: white;
+    font-weight: 700;
+    
+
+}
+.OR {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -110px;
+    gap: 15px;
+
+    
+
+}
+/* HR stands for Horizontal Rule */
+.HR {
+    border-bottom: 1px solid rgba(194, 194, 194, 0.892);
+    display: flex;
+    flex-direction: row;
+    width: 110px;
+}
+/* P1 stands for Paragraph */
+.P1 {
+    color: gray;
+    font-size:smaller;
+
+}
+.B2 {
+    color: rgba(51, 51, 130, 0.805);
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    margin-left: 0px;
+    margin-top: 27px;
+}
+/* D1 Stands for Division 1 */
+.D1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* L1 Stands for link 1 */
+.L1 {
+    text-decoration: none;
+    color: rgb(2, 2, 117);
+    font-size: 13px;
+    font-weight: 300;
+    margin-top:18px; 
+}
+.D3 {
+background-color: white;
+height: 60px;
+margin-top: 27px;
+display: flex;
+gap: 5px;
+align-items: center;
+justify-content: center;
+border:  1px solid rgb(215, 215, 215);
+font-size: 13.5px;
+}
+.L2{
+    text-decoration: none;
+    color: rgba(12, 125, 255, 0.922);
+    font-weight: 600;
+}
+.P2{
+    text-align: center;
+    margin-top: 17px;
+    font-size: 14px;
+}
+.D4{
+   margin-left: 45px;
+   margin-top: 12px;
+}
+.IMG2{
+    margin-left:-85px;
+    position: absolute;
+    margin-top: -5px;
+    
+}
+
+footer{
+    margin-top: 700px;
+    margin-left: -780px;
+    font-size: 12px;
+    
+    
+}
+.Span1{
+    gap: 15px;
+    display: flex;
+    color: rgb(160, 160, 160);
+}
+.Span2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px ;
+    margin-bottom: 50px;
+    color: rgb(160, 160, 160);
+}
+.L7{
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+}
